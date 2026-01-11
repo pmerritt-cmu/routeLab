@@ -1,6 +1,6 @@
 from cmu_graphics import *
 from classes import *
-from app_init import resetApp
+from init import resetApp
 import json
 
 def importData(app):
