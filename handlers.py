@@ -2,7 +2,7 @@
 from importExport import importData, exportData
 from cmu_graphics import *
 from classes import *
-from app_init import initializeCoverOne, resetApp
+from init import initializeCoverOne, resetApp
 import copy
 
 def onKeyPress(app, key):
