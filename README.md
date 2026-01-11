@@ -36,51 +36,13 @@ This project is designed as a visual, hands-on way to explore how NFL-style rout
 
 ---
 
-## Technologies Used
-
-* **Python 3**
-* **cmu_graphics** (CMU 15-112 graphics library)
-* Standard libraries: `math`, `random`
-
----
-
 ## Installation
 
 ### 1. Install Python
 
-Make sure Python 3.8+ is installed:
-
-```bash
-python --version
-```
-
 ### 2. Install `cmu_graphics`
 
-```bash
-pip install cmu-graphics
-```
-
 > Note: `cmu_graphics` works best in a local environment (not browser-based notebooks).
-
-### 3. Download the Project
-
-Clone or download the repository, or ensure you have the main file:
-
-```
-nflRouteProjectUpdated.py
-```
-
----
-
-## Running the App
-
-From the project directory, run:
-
-```bash
-python nflRouteProjectUpdated.py
-```
-
-A new window will open with the football field and UI controls.
 
 ---
 
@@ -98,9 +60,9 @@ A new window will open with the football field and UI controls.
 
    * Click the start button to snap the ball and simulate the play.
 
-4. **Watch the Simulation**
+4. **Be the QB**
 
-   * The quarterback drops back, receivers run routes, defenders react.
+   * Throw the ball to your receivers.
 
 5. **View Results**
 
@@ -119,55 +81,16 @@ A new window will open with the football field and UI controls.
   * `Quarterback`, `WideReceiver`, `RunningBack`, `TightEnd`
   * `CornerBack`, `Safety`, `LineBacker`, `DefensiveEnd`, `DefensiveTackle`
 
-* **Gameplay Objects**
-
-  * `Ball`
-  * `Zone`
-
 * **UI Components**
 
   * `Button`, `RouteButton`, `FormationButton`
   * `StartButton`, `StatsButton`, `InstructionButton`
 
-* **Main Loop**
+* **Event Handlers**
 
-  * Controlled through `runApp()` from `cmu_graphics`
+## Authors
 
----
+* Parker Merritt: [pmerritt@andrew.cmu.edu](mailto:jryman@andrew.cmu.edu)
+* James Ryman: [jryman@andrew.cmu.edu](mailto:jryman@andrew.cmu.edu)
 
-## Controls
-
-* **Mouse Clicks** – Interact with buttons and menus
-* **On-Screen Instructions** – Explain available actions during gameplay
-
-(No keyboard input required.)
-
----
-
-## Known Limitations
-
-* Physics and player logic are simplified for visualization
-* Defensive AI is rule-based, not predictive
-* Best suited for educational or demonstrative use
-
----
-
-## Future Improvements
-
-* More route combinations and formations
-* Enhanced defensive AI and coverage disguises
-* Playbook saving/loading
-* Improved stat tracking (completions, interceptions, timing)
-
----
-
-## Author
-
-**Parker Merritt**
-
----
-
-## License
-
-This project is for educational and personal use. Modify and extend freely.
-
+##
