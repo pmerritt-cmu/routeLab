@@ -1,5 +1,5 @@
 from cmu_graphics import *
-from app_init import onAppStart
+from init import onAppStart
 from drawing import redrawAll
 from classes import *
 from handlers import onMouseMove, onMouseDrag, onMousePress, onMouseRelease, onKeyPress, onKeyHold, onStep
